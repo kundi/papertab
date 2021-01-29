@@ -1,0 +1,12 @@
+{
+  "name": "Papertab",
+  "description": "A simple extension that overrides the new tab with an flexible handy notes that can be used for bookmarking, note taking, taskslists, organizations or anything else",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "storage"
+  ],
+  "chrome_url_overrides" : {
+    "newtab": "note.html"
+  }
+}
